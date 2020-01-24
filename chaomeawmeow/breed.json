@@ -2,7 +2,7 @@
     "pokemon": [{
       "id": 1,
       "num": "001",
-      "name": "ปีชวด (ปีหนู)",
+      "name": "pare (ปีหนู)",
       "img": "https://raw.githubusercontent.com/chadaporn29797/tiktry/f374561956c11bc40fa70cfc90d737de26c0ff88/mouse.png",
       "type": [
         "เถาะ" , "มะเมีย" ,"ระกา" ,"จอ" ,"กุน"

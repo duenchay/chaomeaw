@@ -2,7 +2,6 @@
 import 'dart:convert';
 import 'package:chaomeawmeow/detail.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_web/material.dart';
 import 'package:http/http.dart' as http;
 import 'package:chaomeawmeow/BreedDetail.dart';
 // import 'model/city.dart';
@@ -111,7 +110,7 @@ class _BreedState extends State<Breed> {
   //   );
   // }
   var url =
-      "https://raw.githubusercontent.com/Biuni/PokemonGO-Pokedex/master/pokedex.json";
+      "https://raw.githubusercontent.com/duenchay/chaomeaw/master/chaomeawmeow/breed.json";
 
   PokeHub pokeHub;
 
@@ -151,7 +150,7 @@ class _BreedState extends State<Breed> {
                             Navigator.push(
                                 context,
                                 MaterialPageRoute(
-                                    builder: (context) => PokeDetail(
+                                    builder: (context) => BreedDetail(
                                           pokemon: poke,
                                         )));
                           },
@@ -165,9 +164,9 @@ class _BreedState extends State<Breed> {
                                 children: <Widget>[
                                   Container(
                                     height: MediaQuery.of(context).size.height *
-                                        0.4,
+                                        0.10,
                                     width:
-                                        MediaQuery.of(context).size.width * 0.2,
+                                        MediaQuery.of(context).size.width * 0.19,
                                     decoration: BoxDecoration(
                                         image: DecorationImage(
                                             fit: BoxFit.cover,
@@ -188,13 +187,12 @@ class _BreedState extends State<Breed> {
                       ))
                   .toList(),
             ),
-      drawer: Drawer(),
-      floatingActionButton: FloatingActionButton(
-        onPressed: () {},
-        backgroundColor: Colors.cyan,
-        child: Icon(Icons.refresh),
-      ),
+      // drawer: Drawer(),
+      // floatingActionButton: FloatingActionButton(
+      //   onPressed: () {},
+      //   backgroundColor: Colors.cyan,
+      //   child: Icon(Icons.refresh),
+      // ),
     );
   }
-}
 }

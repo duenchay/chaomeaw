@@ -3,7 +3,8 @@ import 'package:fancy_bottom_navigation/fancy_bottom_navigation.dart';
 import 'Articlesaboutcats.dart';
 import 'Breed.dart';
 import 'Disease.dart';
-import 'Hero.dart';
+import 'Home.dart';
+
 // import 'Home.dart';
 
 void main() => runApp(MyApp());
@@ -14,7 +15,12 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
         title: 'Flutter Demo',
         theme: ThemeData(
-          primarySwatch: Colors.deepPurple,
+          // brightness: Brightness.dark,
+    primaryColor: Colors.greenAccent,
+    // accentColor: Colors.cyan[600],
+          
+
+          // primarySwatch: Colors.deepPurple,
         ),
         home: HomePage());
   }
@@ -25,16 +31,17 @@ class HomePage extends StatefulWidget {
 }
 class _HomePageState extends State<HomePage> {
   int currentPage = 0;
-  final _pageOptions = [HeroAnimation(), Breed(), Disease(), Articlesaboutcats()];
+  final _pageOptions = [Home(), Breed(), Disease(), Articlesaboutcats()];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         title: Text("Fancy Bottom Navigation Bar"),
+        backgroundColor: Colors.tealAccent,
       ),
       body: _pageOptions[currentPage],
       bottomNavigationBar: FancyBottomNavigation(
-        circleColor: Colors.purple,
+        circleColor: Colors.tealAccent,
         tabs: [
           TabData(iconData: Icons.home, title: "Home"),
           TabData(iconData: Icons.wb_sunny, title: "Breed"),

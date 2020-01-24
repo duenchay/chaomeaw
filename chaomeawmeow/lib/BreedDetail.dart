@@ -22,7 +22,7 @@ class BreedDetail extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: <Widget>[
                   SizedBox(
-                    height: 70.0,
+                    height: 50.0,
                   ),
                   Text(
                     pokemon.name,
