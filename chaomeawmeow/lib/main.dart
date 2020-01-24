@@ -35,10 +35,10 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text("Fancy Bottom Navigation Bar"),
-        backgroundColor: Colors.tealAccent,
-      ),
+      // appBar: AppBar(
+      //   title: Text("Fancy Bottom Navigation Bar"),
+      //   backgroundColor: Colors.tealAccent,
+      // ),
       body: _pageOptions[currentPage],
       bottomNavigationBar: FancyBottomNavigation(
         circleColor: Colors.tealAccent,
