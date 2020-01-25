@@ -10,7 +10,7 @@ class DiseaseDetail extends StatelessWidget {
   bodyWidget(BuildContext context) => Stack(
         children: <Widget>[
           Positioned(
-            height: MediaQuery.of(context).size.height / 1.2,
+            height: MediaQuery.of(context).size.height / 1.3,
             width: MediaQuery.of(context).size.width - 22,
             left: 12.0,
             top: MediaQuery.of(context).size.height * 0.01,
@@ -52,14 +52,14 @@ class DiseaseDetail extends StatelessWidget {
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: pokemon.weaknesses
                           .map((t) => FilterChip(
-                              backgroundColor: Colors.blueAccent,
+                              backgroundColor: Colors.pinkAccent,
                               label: Text(t),
                               onSelected: (b) {}))
                           .toList(),
                     ),
-
-
-                    Text("สาเหตุ: ${pokemon.weight}" ),
+                    Text("สาเหตุ",
+                      style: TextStyle(fontWeight: FontWeight.bold)),
+                    Text(" ${pokemon.weight}" ),
                   ],
                 ),
               ),

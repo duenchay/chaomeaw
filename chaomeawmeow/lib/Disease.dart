@@ -42,7 +42,7 @@ class _DiseaseState extends State<Disease> {
     return Scaffold(
       backgroundColor: Colors.greenAccent[100],
       appBar: AppBar(
-        title: Text("Breed"),
+        title: Text("Disease"),
         backgroundColor: Colors.tealAccent,
       ),
       body: pokeHub == null
