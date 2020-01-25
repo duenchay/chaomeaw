@@ -59,7 +59,7 @@ class DiseaseDetail extends StatelessWidget {
                     ),
 
 
-                    Text("สาเหตุ: ${pokemon.weight}" ,style: TextStyle(fontWeight: FontWeight.bold)),
+                    Text("สาเหตุ: ${pokemon.weight}" ),
                   ],
                 ),
               ),

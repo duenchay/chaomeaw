@@ -40,7 +40,7 @@ class _DiseaseState extends State<Disease> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.white,
+      backgroundColor: Colors.greenAccent[100],
       appBar: AppBar(
         title: Text("Breed"),
         backgroundColor: Colors.tealAccent,
@@ -73,9 +73,9 @@ class _DiseaseState extends State<Disease> {
                                 children: <Widget>[
                                   Container(
                                     height: MediaQuery.of(context).size.height *
-                                        0.10,
+                                        0.15,
                                     width:
-                                        MediaQuery.of(context).size.width * 0.22,
+                                        MediaQuery.of(context).size.width * 0.34,
                                     decoration: BoxDecoration(
                                         image: DecorationImage(
                                             fit: BoxFit.cover,
@@ -84,13 +84,13 @@ class _DiseaseState extends State<Disease> {
                                   Text(
                                     poke.name,
                                     style: TextStyle(
-                                      fontSize: 15.0,
+                                      fontSize: 13.0,
                                       fontWeight: FontWeight.bold,
                                     ),
                                   )
                                 ],
                               ),
-                              color: Colors.cyan[200],
+                              color: Colors.white,
                             ),
                           ),
                         ),
