@@ -10,10 +10,10 @@ class DiseaseDetail extends StatelessWidget {
   bodyWidget(BuildContext context) => Stack(
         children: <Widget>[
           Positioned(
-            height: MediaQuery.of(context).size.height / 1.55,
-            width: MediaQuery.of(context).size.width - 20,
+            height: MediaQuery.of(context).size.height / 1.2,
+            width: MediaQuery.of(context).size.width - 22,
             left: 12.0,
-            top: MediaQuery.of(context).size.height * 0.12,
+            top: MediaQuery.of(context).size.height * 0.01,
             child: Card(
               shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(17),
@@ -24,20 +24,19 @@ class DiseaseDetail extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: <Widget>[
                     SizedBox(
-                      height: 25.0,
+                      height:100.0,
                     ),
                     
                     Text(
                       pokemon.name,
                       style:
-                          TextStyle(fontSize: 25, fontWeight: FontWeight.bold),
+                          TextStyle(fontSize: 23, fontWeight: FontWeight.bold),
                     ),
                     Text("${pokemon.height}"),
-                    Text("🏡  ${pokemon.weight}" ,style: TextStyle(fontWeight: FontWeight.bold)),
-                    Text("📌  ${pokemon.candy} ",style:( TextStyle(fontWeight: FontWeight.bold))),
-                    Text("🐾 ประเทศ: ${pokemon.egg} ",style: TextStyle(fontWeight: FontWeight.bold)),
+                    // Text("📌  ${pokemon.candy} ",style:( TextStyle(fontWeight: FontWeight.bold))),
+                    // Text("🐾 ประเทศ: ${pokemon.egg} ",style: TextStyle(fontWeight: FontWeight.bold)),
                     Text(
-                      "💗 ลักษณะเด่น",
+                      "อาการ",
                       style: TextStyle(fontWeight: FontWeight.bold),
                     ),
                     Row(
@@ -49,6 +48,18 @@ class DiseaseDetail extends StatelessWidget {
                               onSelected: (b) {}))
                           .toList(),
                     ),
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                      children: pokemon.weaknesses
+                          .map((t) => FilterChip(
+                              backgroundColor: Colors.blueAccent,
+                              label: Text(t),
+                              onSelected: (b) {}))
+                          .toList(),
+                    ),
+
+
+                    Text("สาเหตุ: ${pokemon.weight}" ,style: TextStyle(fontWeight: FontWeight.bold)),
                   ],
                 ),
               ),
@@ -59,7 +70,7 @@ class DiseaseDetail extends StatelessWidget {
             child: Hero(
                 tag: pokemon.img,
                 child: Container(
-                  height: 117.0,
+                  height: 120.0,
                   width: 190.0,
                   decoration: BoxDecoration(
                       image: DecorationImage(
