@@ -77,7 +77,7 @@ class _BreedState extends State<Breed> {
                                     height: MediaQuery.of(context).size.height *
                                         0.10,
                                     width:
-                                        MediaQuery.of(context).size.width * 0.19,
+                                        MediaQuery.of(context).size.width * 0.22,
                                     decoration: BoxDecoration(
                                         image: DecorationImage(
                                             fit: BoxFit.cover,
