@@ -73,7 +73,7 @@
       "id": 4,
       "num": "04",
       "name": "โรคเยื่อบุช่องท้องอักเสบ",
-      "img": "https://raw.githubusercontent.com/duenchay/chaomeaw/master/chaomeawmeow/assets/images/cat400.png",
+      "img": "https://raw.githubusercontent.com/duenchay/chaomeaw/master/chaomeawmeow/assets/images/cat400.jpg",
       "type": [
         "หายใจลำบาก", "ไม่กินอาหาร" , "ท้องเสีย " ,"มีไข้"
       ],
@@ -97,7 +97,7 @@
       "id": 5,
       "num": "05",
       "name": "korat",
-      "img": "https://raw.githubusercontent.com/duenchay/chaomeaw/master/chaomeawmeow/assets/images/cat500.png",
+      "img": "https://raw.githubusercontent.com/duenchay/chaomeaw/master/chaomeawmeow/assets/images/cat500.jpg",
       "type": [
         "น้ำมูกไหล" ,"ไอ" , "เจ็บคอ" , "หายใจลำบาก"  
       ],
@@ -121,7 +121,7 @@
       "id": 6,
       "num": "06",
       "name": "ภาวะไขมันพอกที่ตับ",
-      "img": "https://raw.githubusercontent.com/duenchay/chaomeaw/master/chaomeawmeow/assets/images/cat600.png",
+      "img": "https://raw.githubusercontent.com/duenchay/chaomeaw/master/chaomeawmeow/assets/images/cat600.jpg",
       "type": [
           "ภาวะดีซ่าน" ,"อาหารไม่ย่อย",  " อาเจียน" 
       ],
@@ -145,7 +145,7 @@
       "id": 7,
       "num": "07",
       "name": "โรคของทางเดินปัสสาวะ",
-      "img": "https://raw.githubusercontent.com/duenchay/chaomeaw/master/chaomeawmeow/assets/images/cat700.png",
+      "img": "https://raw.githubusercontent.com/duenchay/chaomeaw/master/chaomeawmeow/assets/images/cat700.jpg",
       "type": [
         "ถ่ายแต่ไม่ออก" ,"ถ่ายออกมากระปิดกระปอย" 
       ],
@@ -169,7 +169,7 @@
       "id": 8,
       "num": "08",
       "name": "แมวท้องเสีย",
-      "img": "https://raw.githubusercontent.com/duenchay/chaomeaw/master/chaomeawmeow/assets/images/cat800.png",
+      "img": "https://raw.githubusercontent.com/duenchay/chaomeaw/master/chaomeawmeow/assets/images/cat800.jpg",
       "type": [
          "อุจจาระบ่อย " , "มีอาการอาเจียนร่วมด้วย", "มีเลือดหรือเมือกในอุจจาระ"
       ],
@@ -193,7 +193,7 @@
       "id": 9,
       "num": "09",
       "name": "ฉี่เป็นเลือด",
-      "img": "https://raw.githubusercontent.com/duenchay/chaomeaw/master/chaomeawmeow/assets/images/cat900.png",
+      "img": "https://raw.githubusercontent.com/duenchay/chaomeaw/master/chaomeawmeow/assets/images/cat900.jpg",
       "type": [
          "ปัสสาวะสีแดง", "ไม่ถ่ายปัสสาวะ", "ถ่ายแบบกระปิดกระปอย"
       ],
@@ -217,7 +217,7 @@
       "id": 11,
       "num": "11",
       "name": "ไรหูในแมว",
-      "img": "https://raw.githubusercontent.com/duenchay/chaomeaw/master/chaomeawmeow/assets/images/cat1000.png",
+      "img": "https://raw.githubusercontent.com/duenchay/chaomeaw/master/chaomeawmeow/assets/images/cat1000.jpg",
       "type": [
         "คันมากบริเวณหู",  "เม็ดสีขาวๆเคลื่อนที่ได้คือตัวไร"
       ],
@@ -241,7 +241,7 @@
       "id": 12,
       "num": "12",
       "name": "ตับอ่อนอักเสบ",
-      "img": "https://raw.githubusercontent.com/duenchay/chaomeaw/master/chaomeawmeow/assets/images/cat1200.png",
+      "img": "https://raw.githubusercontent.com/duenchay/chaomeaw/master/chaomeawmeow/assets/images/cat1200.jpg",
       "type": [
         "ซึม", "เป็นไข้",  "ไม่กินอาหาร" , "อาเจียน"
       ],
@@ -265,7 +265,7 @@
       "id": 13,
       "num": "13",
       "name": "โรคพิษสุนัขบ้า",
-      "img": "https://raw.githubusercontent.com/duenchay/chaomeaw/master/chaomeawmeow/assets/images/cat1300.png",
+      "img": "https://raw.githubusercontent.com/duenchay/chaomeaw/master/chaomeawmeow/assets/images/cat1300.jpg",
       "type": [
         "มีไข้", "ชักกระตุก",  "กลัวน้ำ" ,"น้ำลายไหลยืด"
       ],
