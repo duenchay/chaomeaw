@@ -10,7 +10,7 @@ class BreedDetail extends StatelessWidget {
   bodyWidget(BuildContext context) => Stack(
         children: <Widget>[
           Positioned(
-            height: MediaQuery.of(context).size.height / 1.6,
+            height: MediaQuery.of(context).size.height / 1.4,
             width: MediaQuery.of(context).size.width - 20,
             left: 12.0,
             top: MediaQuery.of(context).size.height * 0.12,
@@ -24,13 +24,13 @@ class BreedDetail extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: <Widget>[
                     SizedBox(
-                      height: 50.0,
+                      height: 25.0,
                     ),
                     
                     Text(
                       pokemon.name,
                       style:
-                          TextStyle(fontSize: 27, fontWeight: FontWeight.bold),
+                          TextStyle(fontSize: 25, fontWeight: FontWeight.bold),
                     ),
                     Text("${pokemon.height}"),
                     Text("🏡  ${pokemon.weight}" ,style: TextStyle(fontWeight: FontWeight.bold)),
@@ -59,8 +59,8 @@ class BreedDetail extends StatelessWidget {
             child: Hero(
                 tag: pokemon.img,
                 child: Container(
-                  height: 120.0,
-                  width: 200.0,
+                  height: 110.0,
+                  width: 190.0,
                   decoration: BoxDecoration(
                       image: DecorationImage(
                           fit: BoxFit.cover, image: NetworkImage(pokemon.img))),
