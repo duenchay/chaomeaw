@@ -42,10 +42,10 @@ class _BreedState extends State<Breed> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.pink[100],
+      backgroundColor: Colors.white,
       appBar: AppBar(
         title: Text("Breed"),
-        backgroundColor: Colors.pink[800],
+        backgroundColor: Colors.tealAccent,
       ),
       body: pokeHub == null
           ? Center(
@@ -92,7 +92,7 @@ class _BreedState extends State<Breed> {
                                   )
                                 ],
                               ),
-                              color: Colors.redAccent[100],
+                              color: Colors.cyan[200],
                             ),
                           ),
                         ),

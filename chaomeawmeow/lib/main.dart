@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           // brightness: Brightness.dark,
     primaryColor: Colors.greenAccent,
-    // accentColor: Colors.cyan[600],
+    // accentColor: Colors.cyan[600], 
           
 
           // primarySwatch: Colors.deepPurple,
@@ -44,9 +44,9 @@ class _HomePageState extends State<HomePage> {
         circleColor: Colors.tealAccent,
         tabs: [
           TabData(iconData: Icons.home, title: "Home"),
-          TabData(iconData: Icons.wb_sunny, title: "Breed"),
-          TabData(iconData: Icons.fastfood, title: "Disease"),
-          TabData(iconData: Icons.fastfood, title: "Articlesaboutcats")
+          TabData(iconData: Icons.pageview, title: "Breed"),
+          TabData(iconData: Icons.local_hospital, title: "Disease"),
+          TabData(iconData: Icons.sentiment_very_satisfied, title: "Articlesaboutcats")
         ],
         onTabChangedListener: (int position) {
           setState(() {
