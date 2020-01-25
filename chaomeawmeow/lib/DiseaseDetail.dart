@@ -10,7 +10,7 @@ class DiseaseDetail extends StatelessWidget {
   bodyWidget(BuildContext context) => Stack(
         children: <Widget>[
           Positioned(
-            height: MediaQuery.of(context).size.height / 1.3,
+            height: MediaQuery.of(context).size.height / 1.2,
             width: MediaQuery.of(context).size.width - 22,
             left: 12.0,
             top: MediaQuery.of(context).size.height * 0.01,
