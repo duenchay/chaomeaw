@@ -30,14 +30,14 @@ class BreedDetail extends StatelessWidget {
                     Text(
                       pokemon.name,
                       style:
-                          TextStyle(fontSize: 24.0, fontWeight: FontWeight.bold),
+                          TextStyle(fontSize: 25, fontWeight: FontWeight.bold),
                     ),
                     Text("${pokemon.height}"),
-                    Text("🏡 ${pokemon.weight}" ,style: TextStyle(fontWeight: FontWeight.bold)),
-                    Text("ขนาด: ${pokemon.candy} ",style: TextStyle(color: Colors.black.withOpacity(0.8))),
-                    Text("อายุขัย: ${pokemon.egg} ",style: TextStyle(color: Colors.black.withOpacity(0.6))),
+                    Text("🏡  ${pokemon.weight}" ,style: TextStyle(fontWeight: FontWeight.bold)),
+                    Text("📌  ${pokemon.candy} ",style: TextStyle(fontWeight: FontWeight.bold)),
+                    Text("🐾 ประเทศ: ${pokemon.egg} ",style: TextStyle(fontWeight: FontWeight.bold)),
                     Text(
-                      "ปีสมพงศ์",
+                      "💗 ลักษณะเด่น",
                       style: TextStyle(fontWeight: FontWeight.bold),
                     ),
                     Row(
