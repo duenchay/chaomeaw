@@ -16,7 +16,7 @@ class _DiseaseState extends State<Disease> {
   //   );
   // }
    var url =
-      "https://raw.githubusercontent.com/duenchay/chaomeaw/master/chaomeawmeow/breed.json";
+      "https://raw.githubusercontent.com/duenchay/chaomeaw/master/chaomeawmeow/disease.json";
 
   PokeHub pokeHub;
 
