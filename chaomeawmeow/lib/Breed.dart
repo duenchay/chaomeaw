@@ -75,9 +75,9 @@ class _BreedState extends State<Breed> {
                                 children: <Widget>[
                                   Container(
                                     height: MediaQuery.of(context).size.height *
-                                        0.10,
+                                        0.11,
                                     width:
-                                        MediaQuery.of(context).size.width * 0.22,
+                                        MediaQuery.of(context).size.width * 0.30,
                                     decoration: BoxDecoration(
                                         image: DecorationImage(
                                             fit: BoxFit.cover,

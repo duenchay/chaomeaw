@@ -2,10 +2,10 @@ import 'package:chaomeawmeow/detail.dart';
 import 'package:flutter/material.dart';
 
 
-class BreedDetail extends StatelessWidget {
+class DiseaseDetail extends StatelessWidget {
   final Pokemon pokemon;
 
-  BreedDetail({this.pokemon});
+  DiseaseDetail({this.pokemon});
 
   bodyWidget(BuildContext context) => Stack(
         children: <Widget>[
@@ -34,7 +34,7 @@ class BreedDetail extends StatelessWidget {
                     ),
                     Text("${pokemon.height}"),
                     Text("🏡  ${pokemon.weight}" ,style: TextStyle(fontWeight: FontWeight.bold)),
-                    Text("📌  ${pokemon.candy} ",style: TextStyle(fontWeight: FontWeight.bold)),
+                    Text("📌  ${pokemon.candy} ",style:( TextStyle(fontWeight: FontWeight.bold))),
                     Text("🐾 ประเทศ: ${pokemon.egg} ",style: TextStyle(fontWeight: FontWeight.bold)),
                     Text(
                       "💗 ลักษณะเด่น",
