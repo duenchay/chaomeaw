@@ -27,8 +27,8 @@ class _MyAppState extends State<MyApp> {
         fontWeight: FontWeight.bold,
         fontSize: 7.0
       ),),
-      image: new Image.network('https://raw.githubusercontent.com/duenchay/chaomeaw/master/chaomeawmeow/assets/images/logoo.png'),
-      backgroundColor: Colors.red[100],
+      image: new Image.network('https://raw.githubusercontent.com/duenchay/chaomeaw/master/chaomeawmeow/assets/images/p.gif'),
+      backgroundColor: Colors.pink[50],
       styleTextUnderTheLoader: new TextStyle(),
       
       photoSize: 100.0,
