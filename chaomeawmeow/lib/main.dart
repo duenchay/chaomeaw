@@ -1,6 +1,6 @@
 import 'package:chaomeawmeow/mainnext.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_splash/flutter_splash.dart';
+// import 'package:flutter_splash/flutter_splash.dart';
 import 'package:splashscreen/splashscreen.dart';
 
 void main(){
@@ -19,16 +19,16 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return new SplashScreen(
-      seconds: 14,
+      seconds: 7,
       navigateAfterSeconds: new Myy(),
-      title: new Text('Welcome In SplashScreen',
+      title: new Text('',
       
       style: new TextStyle(
         fontWeight: FontWeight.bold,
         fontSize: 7.0
       ),),
-      image: new Image.network('https://i.imgur.com/TyCSG9A.png'),
-      backgroundColor: Colors.white,
+      image: new Image.network('https://raw.githubusercontent.com/duenchay/chaomeaw/master/chaomeawmeow/assets/images/logoo.png'),
+      backgroundColor: Colors.red[100],
       styleTextUnderTheLoader: new TextStyle(),
       
       photoSize: 100.0,

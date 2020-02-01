@@ -41,12 +41,15 @@ class _HomePageState extends State<HomePage> {
             builder: ((BuildContext context, AsyncSnapshot snapshot) {
               return ListView(padding: EdgeInsets.zero, children: <Widget>[
                 SizedBox(height: 70),
+                
                 SlimyCard(
                   slimeEnabled: false,
                   color: const Color(0xFF65B0B4),
+                  
                   topCardWidget: topCardWidget((snapshot.data)
-                      ? '😸 Cat'
-                      : '😺 แมว'),
+                      ? '😸 แมว'
+                      : '😺 Cat'),
+                  
                   bottomCardWidget: bottomCardWidget(),
                 )
               ]);
@@ -68,6 +71,7 @@ class _HomePageState extends State<HomePage> {
             '(ชื่อวิทยาศาสตร์: Felis catus)',
             style: TextStyle(color: Colors.white, fontSize: 15),
           ),
+          
           SizedBox(height: 10),
           Text(
             ' เป็นสัตว์เลี้ยงลูกด้วยนม อยู่ในตระกูล Felidae ต้นตระกูลมาจากเสือไซบีเรีย (Felis tigris altaica) ',
