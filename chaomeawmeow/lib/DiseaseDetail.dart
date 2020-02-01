@@ -43,7 +43,7 @@ class DiseaseDetail extends StatelessWidget {
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: pokemon.type
                           .map((t) => FilterChip(
-                              backgroundColor: Colors.blueAccent,
+                              backgroundColor: Colors.orangeAccent,
                               label: Text(t),
                               onSelected: (b) {}))
                           .toList(),
@@ -52,7 +52,7 @@ class DiseaseDetail extends StatelessWidget {
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: pokemon.weaknesses
                           .map((t) => FilterChip(
-                              backgroundColor: Colors.pinkAccent,
+                              backgroundColor: Colors.amberAccent,
                               label: Text(t),
                               onSelected: (b) {}))
                           .toList(),
@@ -83,10 +83,10 @@ class DiseaseDetail extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.tealAccent[100],
+      backgroundColor: Colors.deepOrange[100],
       appBar: AppBar(
         elevation: 0.0,
-        backgroundColor: Colors.tealAccent[100],
+        backgroundColor: Colors.deepOrange[100],
         title: Text(pokemon.name),
       ),
       body: bodyWidget(context),

@@ -40,10 +40,10 @@ class _DiseaseState extends State<Disease> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.greenAccent[100],
+      backgroundColor: Colors.pink[100],
       appBar: AppBar(
-        title: Text("Disease"),
-        backgroundColor: Colors.tealAccent,
+        title: Text("🏥 Disease"),
+        backgroundColor: Colors.red[200],
       ),
       body: pokeHub == null
           ? Center(
@@ -90,7 +90,7 @@ class _DiseaseState extends State<Disease> {
                                   )
                                 ],
                               ),
-                              color: Colors.white,
+                              color: Colors.pink[50],
                             ),
                           ),
                         ),
