@@ -18,6 +18,7 @@ class Home extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
+      title: 'Chao Meaw Meow',
       theme: ThemeData(
         scaffoldBackgroundColor: Colors.tealAccent[100],
         fontFamily: 'Poppins',
